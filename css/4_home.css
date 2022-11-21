@@ -1,0 +1,146 @@
+.price {
+  padding: 20px;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.price_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price_cards h1 {
+  margin-top: 30px;
+  font-family: nunito sans;
+  font-weight: 800;
+  font-size: 1.3em;
+  color: var(--text-primary-color);
+}
+
+.cards__paragraph {
+  margin-top: 15px;
+  font-family: nunito sans;
+  font-size: 0.7em;
+  color: var(--text-secondary-color);
+  font-weight: 650;
+}
+
+.price__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--price-background-color);
+  width: 180px;
+  height: 75px;
+  /* height: 100px; */
+  border-radius: 40px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  /* vertical-align: middle; */
+  /* padding: 5px; */
+}
+
+.price__euro {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  font-family: nunito sans;
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+.price__number {
+  font-size: 3.2em;
+  color: #080f1a;
+  font-weight: 900;
+  font-family: nunito sans;
+  margin-top: 15px;
+}
+
+.euro {
+  margin-left: 5px;
+  font-family: nunito sans;
+  font-weight: 700;
+}
+
+.price__month {
+  font-family: nunito sans;
+  font-weight: 750;
+}
+
+.cards__dscrpt {
+  text-align: center;
+  width: 210px;
+  font-family: nunito sans;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.cards__btn {
+  background: none;
+  border: 2px solid var(--button-color);
+  color: var(--button-color);
+  width: 180px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: nunito sans;
+  font-size: 0.9em;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.cards__paragraph-credit {
+  font-family: nunito sans;
+  font-size: 0.7em;
+  margin-top: 5px;
+  color: var(--text-secondary-color);
+}
+
+.cards__paragraph-included {
+  font-family: nunito sans;
+  font-size: 0.8em;
+  margin-top: 30px;
+  color: var(--text-secondary-color);
+}
+
+.cards__paragraph-bottom {
+  text-align: center;
+  font-family: nunito sans;
+  font-size: 1em;
+  margin-top: 20px;
+  line-height: 2;
+}
+
+.text-1 {
+  list-style-type: none;
+  border-bottom: 1px dotted var(--text-secondary-color);
+  font-family: nunito sans;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1em;
+  color: var(--text-primary-color);
+  margin-bottom: 20px;
+}
+
+ul {
+  font-family: nunito sans;
+  font-size: 0.8em;
+}
+
+.text-2 {
+  list-style-type: none;
+  font-family: nunito sans;
+  font-weight: 750;
+  line-height: 1;
+  font-size: 1em;
+  color: var(--text-primary-color);
+  margin-bottom: 20px;
+}
+
+.text-3 {
+  color: var(--text-secondary-color);
+  font-size: 0.7em;
+}

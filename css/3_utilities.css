@@ -1,0 +1,64 @@
+/* Layout */
+.container {
+  padding: 0 20px;
+  display: flex;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: white;
+}
+body {
+  background-color: var(--body-background-color);
+}
+
+.price_cards {
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  .container {
+    width: 500px;
+    justify-content: center;
+  }
+  .price {
+    padding: 20px;
+
+    flex-direction: column;
+    gap: 10px;
+  }
+  .price_cards {
+    border-bottom: 1px solid black;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 500px;
+  }
+
+  .price_cards {
+    width: calc(50% - 10px);
+    border: none;
+  }
+  .price {
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+
+  .price_cards {
+    width: calc(25% - 10px);
+    border: none;
+  }
+  .price {
+    padding: 20px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
